@@ -18,4 +18,6 @@ private:
     // Vulkan Components
     VkInstance  instance;
     void        CreateInstance();
+    // Support Funcitons
+    bool        checkInstanceExtensionSupport(std::vector<const char*> checkExtenstions);
 };
