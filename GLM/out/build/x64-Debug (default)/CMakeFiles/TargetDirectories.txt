@@ -1,0 +1,2 @@
+C:/Users/vardy/Desktop/Graphics Programming/Vulkan_Udemy/VulkanCourseApp/GLM/out/build/x64-Debug (default)/CMakeFiles/edit_cache.dir
+C:/Users/vardy/Desktop/Graphics Programming/Vulkan_Udemy/VulkanCourseApp/GLM/out/build/x64-Debug (default)/CMakeFiles/rebuild_cache.dir
