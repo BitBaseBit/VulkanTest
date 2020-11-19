@@ -33,4 +33,9 @@ void VulkanRenderer::CreateInstance()
     VkInstanceCreateInfo    createInfo                  = {};
                             createInfo.sType            = VK_STRUCTURE_TYPE_INSTANCE_CREATE_INFO;
                             createInfo.pApplicationInfo = &appInfo;
+    // Create a list to hold instance extensions.
+    std::vector<const char*>instanceExtensions          = std::vector<const char*>();
+    uint32_t                glfwExtensionCount          = 0; //glfw may requrie multiple extensions;
+    const char**            glfwExtensions;                  // Extensions passed as array of cstrings, so need a pointer to the pointer(cstring
+                            glfwExtensions              = glfwGetRequiredInstanceExtensions(&glfwExtensionCount);
 }
