@@ -33,6 +33,7 @@ int main()
         glfwPollEvents();
     }
 
+    vulkanRenderer.cleanup();
     glfwDestroyWindow(window);
     glfwTerminate();
     return 0;
